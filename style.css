@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input{
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.botao{
+    font-style: italic;
+    background-color: rgb(114, 212, 114);
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: rgb(19, 97, 19);
+    color: white;
+}
+
+.resposta-correta{
+    background-color: green;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.resposta-errada{
+    background-color: red;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
